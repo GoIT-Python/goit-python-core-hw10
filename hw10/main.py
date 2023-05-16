@@ -1,7 +1,5 @@
 from command_generator import command_generator
-# from commands import *
-from commands import good_bye, close,exit,hello,add,change,phone,show_all
-
+from commands import *
 
 COMMANDS = {
     "good bye": good_bye,

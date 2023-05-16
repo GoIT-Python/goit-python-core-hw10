@@ -1,5 +1,4 @@
-# from contacts import contacts
-import contacts
+from contacts import contacts
 
 
 def add(*args, **kwargs):
