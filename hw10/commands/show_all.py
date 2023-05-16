@@ -1,4 +1,4 @@
-from contacts import contacts
+import contacts
 
 
 def show_all(*args, **kwargs):

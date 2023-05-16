@@ -1,1 +1,1 @@
-# goit-python-core-hw9
+hw10

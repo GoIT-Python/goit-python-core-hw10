@@ -1,15 +1,15 @@
-from contacts import contacts
+import contacts
 
 
-def phone(*args, **kwargs):
+def change(*args, **kwargs):
     if args or kwargs:
         for arg in args:
             if not len(arg) > 1:
-                print("Enter command and name please")
+                print("Enter command again with name and phone please")
             else:
                 for contact in contacts:
                     for key in contact.keys():
                         if arg[0] == key.casefold():
-                            phone = contact.get(key)
-                            print(phone)
+                            contact.update({key: " ".join(arg[1:])})
+
     # return text
