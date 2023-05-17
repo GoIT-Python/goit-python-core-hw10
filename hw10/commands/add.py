@@ -1,5 +1,7 @@
 from contacts import contacts
 
+book1 = ui.AddressBook()
+
 
 def add(*args, **kwargs):
     if args or kwargs:
@@ -7,6 +9,7 @@ def add(*args, **kwargs):
             if not len(arg) > 1:
                 print("Enter command again with name and phone please")
             else:
+                print('book1', book1)
                 contacts.append({arg[0].capitalize(): " ".join(arg[1:])})
 
 

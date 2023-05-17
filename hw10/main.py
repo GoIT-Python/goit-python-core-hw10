@@ -1,4 +1,5 @@
 from command_generator import command_generator
+
 from commands import *
 
 COMMANDS = {
