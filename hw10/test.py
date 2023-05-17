@@ -1,9 +1,5 @@
-contacts = [{"Boris": "+380509876542"}, {"Doris": "+14186574850"}]
+phone = ['123', '456', '789']
 
+phone[1]='45-78'
 
-for contact in contacts:
-    if contact.keys() == "Boris":
-        contact.update({contact.key: "333333333333"})
-
-
-print(contacts)
+print(phone)
