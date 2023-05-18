@@ -9,7 +9,7 @@ COMMANDS = {
     "hello": hello,
     "add": add,
     "change": change,
-    # "phone": phone,
+    "phone": phone,
     "show all": show_all,
 }
 
