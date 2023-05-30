@@ -59,3 +59,19 @@ class Phone(Field):
 
     def __str__(self):
         return self.phone
+
+
+# name = Name("Boris")
+# print(type(name).__name__)
+# phone = Phone("123456789")
+# record = Record(name)
+# print(record.__dict__)
+# record.add_phone(phone)
+# print(record.__dict__)
+
+# book = AddressBook()
+# book.add_record(record)
+# print(book.__dict__)
+# print(book.data)
+# print(record == book.data)
+# print(record.__dict__ == book.data)

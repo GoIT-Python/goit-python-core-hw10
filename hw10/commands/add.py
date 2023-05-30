@@ -1,6 +1,8 @@
 from ui import *
 from contacts import book
 
+# record = None
+
 
 def add(*args, **kwargs):
     if args or kwargs:
@@ -13,3 +15,7 @@ def add(*args, **kwargs):
                 if arg[1:]:
                     record.add_phone(" ".join(arg[1:]))
                 book.add_record(record)
+
+
+if __name__ == "__main__":
+    pass
